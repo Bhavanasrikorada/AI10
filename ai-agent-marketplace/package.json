@@ -1,0 +1,13 @@
+{
+  "name": "ai-agent-marketplace-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DPI-Enabled AI Agent Marketplace on Beckn Protocol",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "test:backend": "node backend/test-suite.js",
+    "seed:backend": "npm --prefix backend run seed",
+    "build:frontend": "npm --prefix frontend run build"
+  }
+}
